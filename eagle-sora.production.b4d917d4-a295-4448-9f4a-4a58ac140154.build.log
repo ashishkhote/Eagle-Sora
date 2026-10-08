@@ -1,0 +1,431 @@
+2026-10-08T16:53:08.468Z	Initializing build environment...
+2026-10-08T16:53:16.641Z	Success: Finished initializing build environment
+2026-10-08T16:53:17.512Z	Cloning repository...
+2026-10-08T16:53:21.010Z	Restoring from dependencies cache
+2026-10-08T16:53:21.014Z	Restoring from build output cache
+2026-10-08T16:53:21.020Z	Detected the following tools from environment: npm@10.9.2, nodejs@24.18.0
+2026-10-08T16:53:21.369Z	Installing project dependencies: npm clean-install --progress=false
+2026-10-08T16:53:33.456Z	npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+2026-10-08T16:53:43.349Z	
+2026-10-08T16:53:43.349Z	added 373 packages in 21s
+2026-10-08T16:53:43.350Z	
+2026-10-08T16:53:43.350Z	151 packages are looking for funding
+2026-10-08T16:53:43.351Z	  run `npm fund` for details
+2026-10-08T16:53:43.351Z	npm warn allow-scripts 1 package has install scripts not yet covered by allowScripts:
+2026-10-08T16:53:43.351Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T16:53:43.351Z	npm warn allow-scripts
+2026-10-08T16:53:43.352Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T16:53:43.732Z	Executing user build command: npm run build
+2026-10-08T16:53:44.210Z	
+2026-10-08T16:53:44.211Z	> eagle-sora-web@0.1.0 build
+2026-10-08T16:53:44.211Z	> next build
+2026-10-08T16:53:44.211Z	
+2026-10-08T16:53:44.835Z	▲ Next.js 16.3.8 (Turbopack)
+2026-10-08T16:53:44.892Z	✓ Running next.config.ts took 54ms
+2026-10-08T16:53:44.893Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-10-08T16:53:44.899Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-10-08T16:53:44.900Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-10-08T16:53:44.901Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-10-08T16:53:44.901Z	https://nextjs.org/telemetry
+2026-10-08T16:53:44.902Z	
+2026-10-08T16:53:44.922Z	
+2026-10-08T16:53:45.002Z	  Creating an optimized production build ...
+2026-10-08T16:54:18.387Z	✓ Compiled successfully in 32.5s
+2026-10-08T16:54:18.394Z	  Running TypeScript ...
+2026-10-08T16:54:31.474Z	  Finished TypeScript in 13.1s ...
+2026-10-08T16:54:31.479Z	  Collecting page data using 1 worker ...
+2026-10-08T16:54:32.381Z	  Generating static pages using 1 worker (0/15) ...
+2026-10-08T16:54:33.264Z	  Generating static pages using 1 worker (3/15) 
+2026-10-08T16:54:33.301Z	  Generating static pages using 1 worker (7/15) 
+2026-10-08T16:54:33.515Z	  Generating static pages using 1 worker (11/15) 
+2026-10-08T16:54:33.518Z	✓ Generating static pages using 1 worker (15/15) in 1136ms
+2026-10-08T16:54:33.527Z	  Finalizing page optimization ...
+2026-10-08T16:54:33.540Z	
+2026-10-08T16:54:33.543Z	Route (app)
+2026-10-08T16:54:33.547Z	┌ ○ /
+2026-10-08T16:54:33.547Z	├ ○ /_not-found
+2026-10-08T16:54:33.548Z	├ ○ /about
+2026-10-08T16:54:33.548Z	├ ○ /careers
+2026-10-08T16:54:33.548Z	├ ○ /contact
+2026-10-08T16:54:33.549Z	├ ○ /icon.png
+2026-10-08T16:54:33.549Z	├ ○ /privacy
+2026-10-08T16:54:33.550Z	├ ○ /roadmap
+2026-10-08T16:54:33.550Z	├ ○ /robots.txt
+2026-10-08T16:54:33.550Z	├ ○ /services
+2026-10-08T16:54:33.552Z	├ ○ /sitemap.xml
+2026-10-08T16:54:33.552Z	├ ○ /solutions
+2026-10-08T16:54:33.552Z	└ ○ /terms
+2026-10-08T16:54:33.552Z	
+2026-10-08T16:54:33.553Z	
+2026-10-08T16:54:33.553Z	○  (Static)  prerendered as static content
+2026-10-08T16:54:33.553Z	
+2026-10-08T16:54:34.170Z	Success: Build command completed
+2026-10-08T16:54:35.086Z	Executing user deploy command: npx wrangler deploy
+2026-10-08T16:54:36.921Z	npm warn exec The following package was not found and will be installed: wrangler@4.148.0
+2026-10-08T16:54:51.508Z	
+2026-10-08T16:54:51.510Z	 ⛅️ wrangler 4.148.0
+2026-10-08T16:54:51.510Z	────────────────────
+2026-10-08T16:54:52.267Z	
+2026-10-08T16:54:52.267Z	Detected Project Settings:
+2026-10-08T16:54:52.268Z	 - Worker Name: eagle-sora
+2026-10-08T16:54:52.268Z	 - Framework: Next.js
+2026-10-08T16:54:52.270Z	 - Build Command: npm run build
+2026-10-08T16:54:52.270Z	 - Output Directory: .next
+2026-10-08T16:54:52.271Z	
+2026-10-08T16:54:52.271Z	? Do you want to modify these settings?
+2026-10-08T16:54:52.272Z	🤖 Using fallback value in non-interactive context: no
+2026-10-08T16:54:52.286Z	
+2026-10-08T16:54:52.294Z	📦 Install packages:
+2026-10-08T16:54:52.294Z	 - wrangler (devDependency)
+2026-10-08T16:54:52.295Z	
+2026-10-08T16:54:52.295Z	📝 Update package.json scripts:
+2026-10-08T16:54:52.295Z	 - "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
+2026-10-08T16:54:52.295Z	 - "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview"
+2026-10-08T16:54:52.295Z	
+2026-10-08T16:54:52.296Z	📄 Create wrangler.jsonc:
+2026-10-08T16:54:52.296Z	  {
+2026-10-08T16:54:52.296Z	    "$schema": "node_modules/wrangler/config-schema.json",
+2026-10-08T16:54:52.296Z	    "name": "eagle-sora",
+2026-10-08T16:54:52.296Z	    "compatibility_date": "2026-10-06",
+2026-10-08T16:54:52.297Z	    "observability": {
+2026-10-08T16:54:52.297Z	      "enabled": true
+2026-10-08T16:54:52.297Z	    }
+2026-10-08T16:54:52.297Z	  }
+2026-10-08T16:54:52.297Z	
+2026-10-08T16:54:52.304Z	🛠️  Configuring project for Next.js with OpenNext by running `@opennextjs/cloudflare migrate`
+2026-10-08T16:54:52.304Z	
+2026-10-08T16:54:52.305Z	? Proceed with setup?
+2026-10-08T16:54:52.305Z	🤖 Using fallback value in non-interactive context: yes
+2026-10-08T16:54:59.260Z	npm warn exec The following package was not found and will be installed: @opennextjs/cloudflare@1.20.9
+2026-10-08T16:55:25.506Z	npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+2026-10-08T16:55:26.497Z	npm warn deprecated glob@9.3.5: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+2026-10-08T16:55:44.269Z	
+2026-10-08T16:55:44.269Z	┌───────────────────────────────┐
+2026-10-08T16:55:44.269Z	│ OpenNext — Cloudflare migrate │
+2026-10-08T16:55:44.269Z	└───────────────────────────────┘
+2026-10-08T16:55:44.269Z	
+2026-10-08T16:55:44.269Z	🚀 Setting up the OpenNext Cloudflare adapter...
+2026-10-08T16:55:44.269Z	
+2026-10-08T16:55:44.282Z	⚙️  Installing dependencies...
+2026-10-08T16:55:44.282Z	
+2026-10-08T16:55:44.519Z	npm warn using --force Recommended protections disabled.
+2026-10-08T16:55:51.765Z	npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+2026-10-08T16:55:52.081Z	npm warn deprecated glob@9.3.5: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+2026-10-08T16:55:57.611Z	
+2026-10-08T16:55:57.611Z	added 254 packages in 13s
+2026-10-08T16:55:57.611Z	
+2026-10-08T16:55:57.611Z	205 packages are looking for funding
+2026-10-08T16:55:57.611Z	  run `npm fund` for details
+2026-10-08T16:55:57.613Z	npm warn allow-scripts 4 packages have install scripts not yet covered by allowScripts:
+2026-10-08T16:55:57.614Z	npm warn allow-scripts   esbuild@0.28.1 (install: (install scripts present))
+2026-10-08T16:55:57.614Z	npm warn allow-scripts   unrs-resolver@1.12.2 (install: (install scripts present))
+2026-10-08T16:55:57.615Z	npm warn allow-scripts   workerd@1.20261006.1 (install: (install scripts present))
+2026-10-08T16:55:57.615Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T16:55:57.615Z	npm warn allow-scripts
+2026-10-08T16:55:57.615Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T16:55:57.902Z	npm warn using --force Recommended protections disabled.
+2026-10-08T16:56:00.478Z	
+2026-10-08T16:56:00.478Z	up to date in 3s
+2026-10-08T16:56:00.478Z	
+2026-10-08T16:56:00.478Z	205 packages are looking for funding
+2026-10-08T16:56:00.478Z	  run `npm fund` for details
+2026-10-08T16:56:00.483Z	npm warn allow-scripts 4 packages have install scripts not yet covered by allowScripts:
+2026-10-08T16:56:00.483Z	npm warn allow-scripts   esbuild@0.25.4 (install: (install scripts present))
+2026-10-08T16:56:00.483Z	npm warn allow-scripts   esbuild@0.28.1 (install: (install scripts present))
+2026-10-08T16:56:00.487Z	npm warn allow-scripts   unrs-resolver@1.12.2 (install: (install scripts present))
+2026-10-08T16:56:00.487Z	npm warn allow-scripts   workerd@1.20261006.1 (install: (install scripts present))
+2026-10-08T16:56:00.487Z	npm warn allow-scripts
+2026-10-08T16:56:00.487Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T16:56:00.525Z	⚙️  Creating wrangler.jsonc...
+2026-10-08T16:56:00.525Z	
+2026-10-08T16:56:02.975Z	(node:1153) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+2026-10-08T16:56:02.975Z	(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-08T16:56:05.205Z	WARN Failed to set up cache for your project.
+2026-10-08T16:56:05.205Z	After the migration completes, please manually setup cache in  wrangler.jsonc and open-next.config.ts files (for more details see: https://opennext.js.org/cloudflare/caching).
+2026-10-08T16:56:05.205Z	
+2026-10-08T16:56:05.206Z	⚙️  Creating open-next.config.ts...
+2026-10-08T16:56:05.206Z	
+2026-10-08T16:56:05.226Z	⚙️  Creating .dev.vars file...
+2026-10-08T16:56:05.227Z	
+2026-10-08T16:56:05.228Z	⚙️  Creating public/_headers file...
+2026-10-08T16:56:05.228Z	
+2026-10-08T16:56:05.228Z	⚙️  Updating package.json scripts...
+2026-10-08T16:56:05.228Z	
+2026-10-08T16:56:05.228Z	⚙️  Updating .gitignore file...
+2026-10-08T16:56:05.228Z	
+2026-10-08T16:56:05.229Z	⚙️  Updating Next.js config...
+2026-10-08T16:56:05.229Z	
+2026-10-08T16:56:05.229Z	⚙️  Checking for edge runtime usage...
+2026-10-08T16:56:05.230Z	
+2026-10-08T16:56:05.233Z	🎉 OpenNext Cloudflare adapter complete!
+2026-10-08T16:56:05.234Z	
+2026-10-08T16:56:05.234Z	Next steps:
+2026-10-08T16:56:05.234Z	- Run: "npm run preview" to build and preview your Cloudflare application locally
+2026-10-08T16:56:05.234Z	- Run: "npm run deploy" to deploy your application to Cloudflare Workers
+2026-10-08T16:56:05.234Z	- ⚠️  Setup cache, see https://opennext.js.org/cloudflare/caching for more details
+2026-10-08T16:56:05.234Z	
+2026-10-08T16:56:05.365Z	├ Adding Wrangler files to the .gitignore file
+2026-10-08T16:56:05.366Z	│ updated .gitignore file
+2026-10-08T16:56:05.366Z	│
+2026-10-08T16:56:05.366Z	[build] Running: npx opennextjs-cloudflare build
+2026-10-08T16:56:07.768Z	[build] 
+2026-10-08T16:56:07.769Z	[build] ┌─────────────────────────────┐
+2026-10-08T16:56:07.776Z	[build] │ OpenNext — Cloudflare build │
+2026-10-08T16:56:07.776Z	[build] └─────────────────────────────┘
+2026-10-08T16:56:07.777Z	[build] 
+2026-10-08T16:56:07.777Z	[build] 
+2026-10-08T16:56:07.929Z	[build] App directory: /opt/buildhome/repo
+2026-10-08T16:56:07.930Z	[build] Next.js version : 16.3.8
+2026-10-08T16:56:07.930Z	[build] @opennextjs/cloudflare version: 1.20.9
+2026-10-08T16:56:07.930Z	[build] @opennextjs/aws version: 4.1.8
+2026-10-08T16:56:07.930Z	[build] workerd compatibility_date: 2026-10-06
+2026-10-08T16:56:07.930Z	[build] 
+2026-10-08T16:56:07.932Z	[build] 
+2026-10-08T16:56:07.932Z	[build] ┌─────────────────────────────────┐
+2026-10-08T16:56:07.932Z	[build] │ OpenNext — Building Next.js app │
+2026-10-08T16:56:07.933Z	[build] └─────────────────────────────────┘
+2026-10-08T16:56:07.933Z	[build] 
+2026-10-08T16:56:07.933Z	[build] 
+2026-10-08T16:56:08.186Z	[build] 
+2026-10-08T16:56:08.187Z	[build] > eagle-sora-web@0.1.0 build
+2026-10-08T16:56:08.188Z	[build] > next build
+2026-10-08T16:56:08.189Z	[build] 
+2026-10-08T16:56:08.189Z	[build] 
+2026-10-08T16:56:08.832Z	[build] ▲ Next.js 16.3.8 (Turbopack)
+2026-10-08T16:56:08.832Z	[build] 
+2026-10-08T16:56:10.189Z	[build] ✓ Running next.config.ts took 1362ms
+2026-10-08T16:56:10.189Z	[build] 
+2026-10-08T16:56:10.213Z	[build] Using secrets defined in .dev.vars
+2026-10-08T16:56:10.215Z	[build] 
+2026-10-08T16:56:10.475Z	[build] 
+2026-10-08T16:56:10.478Z	[build] 
+2026-10-08T16:56:10.604Z	[build]   Creating an optimized production build ...
+2026-10-08T16:56:10.605Z	[build] 
+2026-10-08T16:56:17.894Z	[build] ✓ Compiled successfully in 6.3s
+2026-10-08T16:56:17.894Z	[build] 
+2026-10-08T16:56:17.899Z	[build]   Running TypeScript ...
+2026-10-08T16:56:17.899Z	[build] 
+2026-10-08T16:56:28.747Z	[build]   Finished TypeScript in 10.8s ...
+2026-10-08T16:56:28.747Z	[build] 
+2026-10-08T16:56:28.753Z	[build]   Collecting page data using 1 worker ...
+2026-10-08T16:56:28.753Z	[build] 
+2026-10-08T16:56:29.666Z	[build]   Generating static pages using 1 worker (0/15) ...
+2026-10-08T16:56:29.668Z	[build] 
+2026-10-08T16:56:30.477Z	[build]   Generating static pages using 1 worker (3/15) 
+2026-10-08T16:56:30.477Z	[build] 
+2026-10-08T16:56:30.523Z	[build]   Generating static pages using 1 worker (7/15) 
+2026-10-08T16:56:30.524Z	[build] 
+2026-10-08T16:56:30.773Z	[build]   Generating static pages using 1 worker (11/15) 
+2026-10-08T16:56:30.774Z	[build] 
+2026-10-08T16:56:30.778Z	[build] ✓ Generating static pages using 1 worker (15/15) in 1112ms
+2026-10-08T16:56:30.778Z	[build] 
+2026-10-08T16:56:30.796Z	[build]   Finalizing page optimization ...
+2026-10-08T16:56:30.797Z	[build] 
+2026-10-08T16:56:31.344Z	[build] 
+2026-10-08T16:56:31.346Z	[build] 
+2026-10-08T16:56:31.351Z	[build] Route (app)
+2026-10-08T16:56:31.351Z	[build] ┌ ○ /
+2026-10-08T16:56:31.351Z	[build] ├ ○ /_not-found
+2026-10-08T16:56:31.351Z	[build] ├ ○ /about
+2026-10-08T16:56:31.351Z	[build] ├ ○ /careers
+2026-10-08T16:56:31.352Z	[build] ├ ○ /contact
+2026-10-08T16:56:31.352Z	[build] ├ ○ /icon.png
+2026-10-08T16:56:31.353Z	[build] ├ ○ /privacy
+2026-10-08T16:56:31.353Z	[build] ├ ○ /roadmap
+2026-10-08T16:56:31.353Z	[build] ├ ○ /robots.txt
+2026-10-08T16:56:31.354Z	[build] ├ ○ /services
+2026-10-08T16:56:31.354Z	[build] ├ ○ /sitemap.xml
+2026-10-08T16:56:31.354Z	[build] ├ ○ /solutions
+2026-10-08T16:56:31.355Z	[build] └ ○ /terms
+2026-10-08T16:56:31.355Z	[build] 
+2026-10-08T16:56:31.356Z	[build] 
+2026-10-08T16:56:31.356Z	[build] 
+2026-10-08T16:56:31.356Z	[build] ○  (Static)  prerendered as static content
+2026-10-08T16:56:31.356Z	[build] 
+2026-10-08T16:56:31.357Z	[build] 
+2026-10-08T16:56:31.480Z	[build] 
+2026-10-08T16:56:31.481Z	[build] ┌──────────────────────────────┐
+2026-10-08T16:56:31.484Z	[build] │ OpenNext — Generating bundle │
+2026-10-08T16:56:31.484Z	[build] └──────────────────────────────┘
+2026-10-08T16:56:31.485Z	[build] 
+2026-10-08T16:56:31.485Z	[build] 
+2026-10-08T16:56:31.636Z	[build] Bundling middleware function...
+2026-10-08T16:56:31.636Z	[build] 
+2026-10-08T16:56:31.849Z	[build] Bundling static assets...
+2026-10-08T16:56:31.856Z	[build] 
+2026-10-08T16:56:31.924Z	[build] Bundling cache assets...
+2026-10-08T16:56:31.924Z	[build] 
+2026-10-08T16:56:32.040Z	[build] Building server function: default...
+2026-10-08T16:56:32.041Z	[build] 
+2026-10-08T16:56:38.934Z	[build] Applying code patches: 6.505s
+2026-10-08T16:56:38.934Z	[build] 
+2026-10-08T16:56:39.469Z	[build] # copyPackageTemplateFiles
+2026-10-08T16:56:39.469Z	[build] 
+2026-10-08T16:56:39.470Z	[build] ⚙️ Bundling the OpenNext server...
+2026-10-08T16:56:39.470Z	[build] 
+2026-10-08T16:56:39.471Z	[build] 
+2026-10-08T16:56:43.471Z	[build] Worker saved in `.open-next/worker.js` 🚀
+2026-10-08T16:56:43.478Z	[build] 
+2026-10-08T16:56:43.478Z	[build] OpenNext build complete.
+2026-10-08T16:56:43.478Z	[build] 
+2026-10-08T16:56:44.536Z	OpenNext project detected, calling `opennextjs-cloudflare deploy`
+2026-10-08T16:56:49.217Z	
+2026-10-08T16:56:49.217Z	┌──────────────────────────────┐
+2026-10-08T16:56:49.217Z	│ OpenNext — Cloudflare deploy │
+2026-10-08T16:56:49.217Z	└──────────────────────────────┘
+2026-10-08T16:56:49.217Z	
+2026-10-08T16:56:49.259Z	Using secrets defined in .dev.vars
+2026-10-08T16:56:50.096Z	Incremental cache does not need populating
+2026-10-08T16:56:50.097Z	Tag cache does not need populating
+2026-10-08T16:56:52.556Z	
+2026-10-08T16:56:52.556Z	 ⛅️ wrangler 4.148.0
+2026-10-08T16:56:52.557Z	────────────────────
+2026-10-08T16:56:52.606Z	
+2026-10-08T16:56:52.606Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+2026-10-08T16:56:55.466Z	🌀 Building list of assets...
+2026-10-08T16:56:55.471Z	✨ Read 149 files from the assets directory /opt/buildhome/repo/.open-next/assets
+2026-10-08T16:56:56.103Z	🌀 Starting asset upload...
+2026-10-08T16:56:58.008Z	🌀 Found 116 new or modified static assets to upload. Proceeding with upload...
+2026-10-08T16:56:58.009Z	+ /BUILD_ID
+2026-10-08T16:56:58.009Z	+ /vercel.svg
+2026-10-08T16:56:58.009Z	+ /file.svg
+2026-10-08T16:56:58.009Z	+ /_next/static/media/0b1dc8ddaa74ba49-s.0e__wj8580tc5.woff2
+2026-10-08T16:56:58.010Z	+ /_next/static/chunks/28flaeabfo316.js
+2026-10-08T16:56:58.010Z	+ /assets/leaf-1.webp
+2026-10-08T16:56:58.010Z	+ /assets/Serene Pastel Cityscape Waves.webp
+2026-10-08T16:56:58.010Z	+ /_next/static/chunks/33t46atd3n2zd.js
+2026-10-08T16:56:58.013Z	+ /_next/static/chunks/0uiat23-sljmh.js
+2026-10-08T16:56:58.014Z	+ /assets/about-team-illustration.webp
+2026-10-08T16:56:58.014Z	+ /_next/static/chunks/2cgatpxh76-za.js
+2026-10-08T16:56:58.014Z	+ /_next/static/chunks/2hfwvxf9hsgj7.js
+2026-10-08T16:56:58.014Z	+ /_next/static/chunks/2wptt9-p6f9l3.js
+2026-10-08T16:56:58.014Z	+ /_next/static/chunks/0h38r7eo96462.js
+2026-10-08T16:56:58.014Z	+ /assets/outer-leaf-ring.webp
+2026-10-08T16:56:58.014Z	+ /assets/ChatGPT Image Oct 2, 2026, 12_46_27 PM.webp
+2026-10-08T16:56:58.015Z	+ /assets/about-botanical-hero.webp
+2026-10-08T16:56:58.020Z	+ /assets/solutions-hero-sphere.webp
+2026-10-08T16:56:58.020Z	+ /assets/Mithilesh Darne.jpeg
+2026-10-08T16:56:58.021Z	+ /assets/Eagle Sora_ Smarter Digital Future.webp
+2026-10-08T16:56:58.021Z	+ /assets/Ashish_Khote.jpeg
+2026-10-08T16:56:58.021Z	+ /assets/eco-tech-dashboard-clean.webp
+2026-10-08T16:56:58.022Z	+ /_next/static/chunks/0cz1d0mv5g_q7.js
+2026-10-08T16:56:58.022Z	+ /assets/contact-page.webp
+2026-10-08T16:56:58.022Z	+ /assets/Parikshit_Pawade.jpeg
+2026-10-08T16:56:58.022Z	+ /assets/Satyam_Rathod.jpeg
+2026-10-08T16:56:58.022Z	+ /assets/about-team-illustration.jpg
+2026-10-08T16:56:58.022Z	+ /assets/framing-wave-bg.png
+2026-10-08T16:56:58.023Z	+ /assets/Eagle Sora Leaf Emblem Logo.png
+2026-10-08T16:56:58.023Z	+ /assets/roadmap-hero-sphere.jpg
+2026-10-08T16:56:58.023Z	+ /assets/about-team-discussion.jpg
+2026-10-08T16:56:58.023Z	+ /assets/contact-hero-sphere.jpg
+2026-10-08T16:56:58.023Z	+ /assets/hero-tech-sphere.png
+2026-10-08T16:56:58.023Z	+ /assets/ChatGPT Image Oct 2, 2026, 01_11_12 PM.png
+2026-10-08T16:56:58.023Z	+ /assets/ChatGPT Image Oct 2, 2026, 01_11_54 PM.png
+2026-10-08T16:56:58.024Z	+ /assets/ChatGPT Image Oct 2, 2026, 12_46_27 PM.png
+2026-10-08T16:56:58.024Z	+ /assets/EAGLE SORA TRANSCENDENT PRIVATE LIMITED.pdf
+2026-10-08T16:56:58.024Z	+ /assets/Rohan_Khadse.png
+2026-10-08T16:56:58.024Z	+ /assets/careers-page.png
+2026-10-08T16:56:58.024Z	+ /_next/static/e1rc60fRdq6RbeqN5KdtW/_ssgManifest.js
+2026-10-08T16:56:58.024Z	+ /_next/static/e1rc60fRdq6RbeqN5KdtW/_buildManifest.js
+2026-10-08T16:56:58.024Z	+ /globe.svg
+2026-10-08T16:56:58.024Z	+ /assets/framing-wave-bg.webp
+2026-10-08T16:56:58.025Z	+ /_next/static/chunks/0ga99an6sjgl8.js
+2026-10-08T16:56:58.025Z	+ /_next/static/chunks/turbopack-38yu80cgwjzml.js
+2026-10-08T16:56:58.025Z	+ /assets/Eagle Sora Leaf Emblem Logo.webp
+2026-10-08T16:56:58.025Z	+ /_next/static/chunks/0r_vkpgyzmy33.js
+2026-10-08T16:56:58.026Z	+ /_next/static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2
+2026-10-08T16:56:58.026Z	+ /assets/inner-sprout.webp
+2026-10-08T16:56:58.026Z	+ /_next/static/chunks/05_vjmvpv1_s7.js
+2026-10-08T16:56:58.026Z	+ /_next/static/chunks/40jxpcvxj8zp_.js
+2026-10-08T16:56:58.026Z	+ /_next/static/chunks/23hr3jrb3-spp.js
+2026-10-08T16:56:58.026Z	+ /assets/Swirling Green Leaf Emblem.webp
+2026-10-08T16:56:58.026Z	+ /assets/ChatGPT Image Oct 2, 2026, 01_11_12 PM.webp
+2026-10-08T16:56:58.027Z	+ /assets/roadmap-hero-sphere.webp
+2026-10-08T16:56:58.027Z	+ /assets/solutions-team-illustration.webp
+2026-10-08T16:56:58.027Z	+ /assets/contact-hero-sphere.webp
+2026-10-08T16:56:58.027Z	+ /assets/Ajay Gorle.jpeg
+2026-10-08T16:56:58.027Z	+ /_next/static/chunks/3wb48ljm__3bn.js
+2026-10-08T16:56:58.027Z	+ /_next/static/chunks/1oqdk0amli-bq.css
+2026-10-08T16:56:58.027Z	+ /assets/careers-page.webp
+2026-10-08T16:56:58.027Z	+ /assets/eco-tech-illustration.webp
+2026-10-08T16:56:58.028Z	+ /assets/swirling-emblem.webp
+2026-10-08T16:56:58.028Z	+ /_next/static/chunks/2z-ct4xf4a9s-.js
+2026-10-08T16:56:58.028Z	+ /_next/static/chunks/3gwb465dhjxo9.js
+2026-10-08T16:56:58.028Z	+ /assets/about-team-hero.png
+2026-10-08T16:56:58.028Z	+ /assets/logo-emblem.png
+2026-10-08T16:56:58.028Z	+ /assets/cityscape-wave-bg.png
+2026-10-08T16:56:58.028Z	+ /assets/solutions-hero-sphere.jpg
+2026-10-08T16:56:58.028Z	+ /assets/services-hero-sphere.jpg
+2026-10-08T16:56:58.029Z	+ /favicon.ico
+2026-10-08T16:56:58.029Z	+ /assets/Swirling Green Leaf Emblem.png
+2026-10-08T16:56:58.029Z	+ /_next/static/chunks/0f22-y10nc-32.js
+2026-10-08T16:56:58.029Z	+ /assets/Serene Pastel Cityscape Waves.png
+2026-10-08T16:56:58.029Z	+ /assets/Eagle Sora_ Smarter Digital Future.png
+2026-10-08T16:56:58.029Z	+ /assets/eco-tech-dashboard.png
+2026-10-08T16:56:58.029Z	+ /assets/eco-tech-illustration.png
+2026-10-08T16:56:58.030Z	+ /assets/contact-page.png
+2026-10-08T16:56:58.030Z	+ /_next/static/e1rc60fRdq6RbeqN5KdtW/_clientMiddlewareManifest.js
+2026-10-08T16:56:58.030Z	+ /window.svg
+2026-10-08T16:56:58.030Z	+ /next.svg
+2026-10-08T16:56:58.030Z	+ /assets/cityscape-wave-bg.webp
+2026-10-08T16:56:58.032Z	+ /_next/static/media/e629b5bc06499d58-s.10u7vx61f1ie7.woff2
+2026-10-08T16:56:58.033Z	+ /assets/green-leaf-floating.webp
+2026-10-08T16:56:58.033Z	+ /assets/Eagle Sora Eco Logo.webp
+2026-10-08T16:56:58.033Z	+ /_next/static/media/1a099d89ee94ee96-s.35a5cae5tspm2.woff2
+2026-10-08T16:56:58.033Z	+ /_next/static/chunks/34lbbkk2yikgo.js
+2026-10-08T16:56:58.033Z	+ /assets/logo.webp
+2026-10-08T16:56:58.033Z	+ /assets/services-team-illustration.webp
+2026-10-08T16:56:58.033Z	+ /_next/static/chunks/21nxd552vji-y.js
+2026-10-08T16:56:58.033Z	+ /assets/logo-emblem.webp
+2026-10-08T16:56:58.034Z	+ /assets/about-team-cutout.webp
+2026-10-08T16:56:58.034Z	+ /icon.png
+2026-10-08T16:56:58.034Z	+ /assets/ChatGPT Image Oct 2, 2026, 01_11_54 PM.webp
+2026-10-08T16:56:58.034Z	+ /assets/services-hero-sphere.webp
+2026-10-08T16:56:58.034Z	+ /assets/about-hero-sphere.webp
+2026-10-08T16:56:58.034Z	+ /assets/hero-tech-sphere.webp
+2026-10-08T16:56:58.034Z	+ /assets/about-building-card.webp
+2026-10-08T16:56:58.034Z	+ /assets/eco-tech-dashboard.webp
+2026-10-08T16:56:58.034Z	+ /assets/roadmap-journey-cutout.webp
+2026-10-08T16:56:58.034Z	   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+2026-10-08T16:57:03.631Z	Uploaded 38 of 116 assets
+2026-10-08T16:57:04.451Z	Uploaded 77 of 116 assets
+2026-10-08T16:57:04.722Z	Uploaded 116 of 116 assets
+2026-10-08T16:57:04.724Z	✨ Success! Uploaded 116 files (26 already uploaded) (6.70 sec)
+2026-10-08T16:57:04.724Z	
+2026-10-08T16:57:05.112Z	Total Upload: 9978.18 KiB / gzip: 3236.17 KiB
+2026-10-08T16:57:06.713Z	Your Worker has access to the following bindings:
+2026-10-08T16:57:06.714Z	Binding                                         Resource      
+2026-10-08T16:57:06.714Z	env.WORKER_SELF_REFERENCE (eagle-sora-web)      Worker        
+2026-10-08T16:57:06.714Z	env.IMAGES                                      Images        
+2026-10-08T16:57:06.714Z	env.ASSETS                                      Assets        
+2026-10-08T16:57:06.714Z	
+2026-10-08T16:57:06.720Z	
+2026-10-08T16:57:06.960Z	✘ [ERROR] A request to the Cloudflare API (/accounts/9295058570fef14ce6c995f0adaaac52/workers/scripts/eagle-sora/versions) failed.
+2026-10-08T16:57:06.960Z	
+2026-10-08T16:57:06.961Z	  Service binding 'WORKER_SELF_REFERENCE' references Worker 'eagle-sora-web' which was not found. Verify the Worker exists in your account and that the service name in your configuration is correct. [code: 10143]
+2026-10-08T16:57:06.961Z	  To learn more about this error, visit: https://developers.cloudflare.com/workers/configuration/bindings/about-service-bindings/
+2026-10-08T16:57:06.961Z	
+2026-10-08T16:57:06.961Z	  
+2026-10-08T16:57:06.961Z	  If you think this is a bug, please open an issue at: https://github.com/cloudflare/workers-sdk/issues/new/choose
+2026-10-08T16:57:06.961Z	
+2026-10-08T16:57:06.962Z	
+2026-10-08T16:57:06.962Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2026-10-08_16-56-52_000.log"
+2026-10-08T16:57:06.962Z	ERROR Wrangler deploy command failed:
+2026-10-08T16:57:06.962Z	✘ [ERROR] A request to the Cloudflare API (/accounts/9295058570fef14ce6c995f0adaaac52/workers/scripts/eagle-sora/versions) failed.
+2026-10-08T16:57:06.962Z	
+2026-10-08T16:57:06.962Z	  Service binding 'WORKER_SELF_REFERENCE' references Worker 'eagle-sora-web' which was not found. Verify the Worker exists in your account and that the service name in your configuration is correct. [code: 10143]
+2026-10-08T16:57:06.962Z	  To learn more about this error, visit: https://developers.cloudflare.com/workers/configuration/bindings/about-service-bindings/
+2026-10-08T16:57:06.962Z	
+2026-10-08T16:57:06.962Z	  
+2026-10-08T16:57:06.962Z	  If you think this is a bug, please open an issue at: https://github.com/cloudflare/workers-sdk/issues/new/choose
+2026-10-08T16:57:06.962Z	
+2026-10-08T16:57:06.963Z	
+2026-10-08T16:57:06.965Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2026-10-08_16-56-52_000.log"
+2026-10-08T16:57:06.966Z	
+2026-10-08T16:57:07.031Z	
+2026-10-08T16:57:07.119Z	✘ [ERROR] 
+2026-10-08T16:57:07.119Z	
+2026-10-08T16:57:07.119Z	
+2026-10-08T16:57:07.120Z	If you think this is a bug then please create an issue at https://github.com/cloudflare/workers-sdk/issues/new/choose
+2026-10-08T16:57:07.152Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2026-10-08_16-54-50_951.log"
+2026-10-08T16:57:07.224Z	Failed: error occurred while running deploy command
