@@ -241,6 +241,7 @@ object {
 
 .animate-marquee {
   animation: marquee 75s linear infinite;
+  animation-delay: 3s;
   will-change: transform;
 }
 
