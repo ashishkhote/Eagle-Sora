@@ -12,7 +12,7 @@ export const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-auto lg:min-h-screen pt-14 sm:pt-24 pb-8 sm:pb-20 overflow-hidden flex items-center bg-[#f4f9f4]"
+      className="relative min-h-auto lg:min-h-screen pt-20 sm:pt-24 pb-8 sm:pb-20 overflow-hidden flex items-center bg-[#f4f9f4]"
     >
       {/* Background Artwork: Serene Pastel Cityscape Waves Overlay */}
       <div className="absolute inset-0 z-0 opacity-80 pointer-events-none">
@@ -26,11 +26,11 @@ export const Hero: React.FC = () => {
       </div>
 
       {/* 3 Left 3D Green Leaves matching exact reference crop pixel-perfectly (12_46_27 PM.png) */}
-      
+
       {/* 5 Static 3D Green Leaves matching reference mockup (12_46_27 PM.png) - FADED SOFT PASTEL LOOK */}
-      
+
       {/* 5 3D Green Leaves matching reference mockup (12_46_27 PM.png) - ELEGANT ENTRANCE IN-ANIMATION */}
-      
+
       {/* Leaf 1: Far Top-Left Corner */}
       <div className="absolute top-[18%] left-[2.5%] w-[42px] h-[60px] sm:w-[50px] sm:h-[72px] pointer-events-none z-10 opacity-60">
         <Image
@@ -88,7 +88,7 @@ export const Hero: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-          
+
           {/* Left Column: Headlines & CTA (Zero opacity-0 delay, always 100% visible) */}
           <div className="lg:col-span-6 space-y-5 sm:space-y-6 text-left">
             {/* Subtitle Tag matching exact reference typography: TECHNOLOGY • INNOVATION • TRANSFORMATION */}
