@@ -283,7 +283,7 @@ export default function PrivacyPolicyPage() {
                     <span>When We Act as Data Fiduciary</span>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
-                    We determine the purpose and means of processing when you interact directly with us—such as when you browse <code>eagle-sora.com</code>, submit partnership inquiry forms, apply for open careers, or communicate with our executive leadership team.
+                    We determine the purpose and means of processing when you interact directly with us—such as when you browse <code>eaglesora.in</code>, submit partnership inquiry forms, apply for open careers, or communicate with our executive leadership team.
                   </p>
                   <ul className="text-xs text-slate-700 space-y-1.5 list-disc list-inside">
                     <li>Contact form submissions and meeting telemetry</li>

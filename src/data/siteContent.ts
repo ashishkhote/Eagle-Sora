@@ -36,7 +36,7 @@ export const siteContent: SiteContent = {
     address: "Dhole Lay Out, Visawa colony, Pimpalgaon, Yavatmal, Maharashtra 445001",
     email: "services.eaglesora@gmail.com",
     phone: "+91 9307807516",
-    website: "eagle-sora.com",
+    website: "eaglesora.in",
     copyright: "© 2026 EAGLE SORA TRANSCENDENT PRIVATE LIMITED. All rights reserved."
   },
 

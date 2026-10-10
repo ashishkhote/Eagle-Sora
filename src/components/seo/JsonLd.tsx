@@ -2,7 +2,7 @@ export function JsonLd() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": "https://eagle-sora.com/#organization",
+    "@id": "https://eaglesora.in/#organization",
     name: "EAGLE SORA TRANSCENDENT PRIVATE LIMITED",
     alternateName: [
       "Eagle Sora",
@@ -10,15 +10,15 @@ export function JsonLd() {
       "Eagle Sora Transcendent",
       "Eagle Sora Company India",
     ],
-    url: "https://eagle-sora.com",
+    url: "https://eaglesora.in",
     logo: {
       "@type": "ImageObject",
-      url: "https://eagle-sora.com/icon.png",
+      url: "https://eaglesora.in/icon.png",
       caption: "EAGLE SORA Logo",
     },
     description:
       "EAGLE SORA TRANSCENDENT PRIVATE LIMITED delivers innovative technology, custom enterprise software development, cloud infrastructure, AI solutions (SoraAI™), and digital transformation services.",
-    email: "contact@eagle-sora.com",
+    email: "contact@eaglesora.in",
     telephone: "+91-94228-66258",
     address: {
       "@type": "PostalAddress",
@@ -53,11 +53,11 @@ export function JsonLd() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": "https://eagle-sora.com/#website",
-    url: "https://eagle-sora.com",
+    "@id": "https://eaglesora.in/#website",
+    url: "https://eaglesora.in",
     name: "Eagle Sora Transcendent",
     publisher: {
-      "@id": "https://eagle-sora.com/#organization",
+      "@id": "https://eaglesora.in/#organization",
     },
     inLanguage: "en-IN",
   };
@@ -66,11 +66,15 @@ export function JsonLd() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(organizationSchema),
+        }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(websiteSchema),
+        }}
       />
     </>
   );
