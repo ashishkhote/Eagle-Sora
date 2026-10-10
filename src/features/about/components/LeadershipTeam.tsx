@@ -35,7 +35,7 @@ const teamMembers = [
     role: "Associate Tester",
     image: "/assets/Rohan_Khadse.png",
   },
-    {
+  {
     name: "Parikshit Pawade",
     role: "Sr. HR Executive",
     image: "/assets/Parikshit_Pawade.jpeg",
@@ -202,16 +202,11 @@ export const LeadershipTeam: React.FC = () => {
               </p>
             </div>
 
-            <Link href="/contact" passHref>
-              <motion.button
-                type="button"
-                whileHover={{ y: -2, scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                transition={{ type: "spring", stiffness: 260, damping: 18 }}
-                className="inline-flex min-h-11 w-full items-center justify-center rounded-full bg-[#1f2430] px-7 py-3 text-base font-semibold text-white shadow-sm transition hover:bg-[#121821] md:w-auto"
-              >
-                Apply Now
-              </motion.button>
+            <Link
+              href="/careers/apply"
+              className="inline-flex min-h-11 w-full items-center justify-center rounded-full bg-[#1f2430] px-7 py-3 text-base font-semibold text-white shadow-sm transition hover:bg-[#121821] md:w-auto"
+            >
+              Apply Now
             </Link>
           </div>
         </motion.div>

@@ -168,7 +168,7 @@ function RoleCard({ role }: { role: typeof openRoles[0] }) {
             <div className="px-6 pb-6 pt-0 border-t border-emerald-50 space-y-4">
               <p className="text-sm text-slate-600 leading-relaxed pt-4">{role.description}</p>
               <Link
-                href="/contact"
+                href={`/careers/apply?role=${encodeURIComponent(role.title)}`}
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[#196d24] hover:bg-[#13551c] text-white text-xs font-bold transition-all shadow-md hover:-translate-y-0.5"
               >
                 Apply Now <ArrowRight className="w-3.5 h-3.5" />
@@ -297,8 +297,8 @@ export const CareersPage: React.FC = () => {
                 id={`filter-${dep.replace(/\s+/g, "-").toLowerCase()}`}
                 onClick={() => setActiveFilter(dep)}
                 className={`px-4 py-1.5 rounded-full text-xs font-bold border transition-all ${activeFilter === dep
-                    ? "bg-[#196d24] text-white border-[#196d24] shadow-md"
-                    : "bg-white text-slate-600 border-slate-200 hover:border-[#196d24] hover:text-[#196d24]"
+                  ? "bg-[#196d24] text-white border-[#196d24] shadow-md"
+                  : "bg-white text-slate-600 border-slate-200 hover:border-[#196d24] hover:text-[#196d24]"
                   }`}
               >
                 {dep}
@@ -399,7 +399,7 @@ export const CareersPage: React.FC = () => {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Link
-              href="/contact"
+              href="/careers/apply"
               id="careers-apply-cta"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-emerald-500 hover:bg-emerald-400 text-[#0f2917] font-black text-sm transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
