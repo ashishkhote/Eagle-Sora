@@ -13,13 +13,17 @@ const fontSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://eagle-sora.com"),
+  metadataBase: new URL("https://eaglesora.in"),
+
   title: {
-    default: "EAGLE SORA TRANSCENDENT PRIVATE LIMITED | Innovating for a Smarter, Digital Nation",
+    default:
+      "EAGLE SORA TRANSCENDENT PRIVATE LIMITED | Innovating for a Smarter, Digital Nation",
     template: "%s | EAGLE SORA TRANSCENDENT",
   },
+
   description:
     "EAGLE SORA TRANSCENDENT PRIVATE LIMITED is an IT & software engineering company specializing in custom software, cloud infrastructure, AI integration, enterprise platforms (SoraAI™, SoraCommerce™), and compliance security.",
+
   keywords: [
     "Eagle Sora",
     "Eagle Sora Transcendent",
@@ -34,12 +38,15 @@ export const metadata: Metadata = {
     "Cloud Solutions",
     "Cybersecurity Compliance",
   ],
+
   authors: [{ name: "EAGLE SORA TRANSCENDENT PRIVATE LIMITED" }],
   creator: "EAGLE SORA TRANSCENDENT PRIVATE LIMITED",
   publisher: "EAGLE SORA TRANSCENDENT PRIVATE LIMITED",
+
   alternates: {
     canonical: "/",
   },
+
   robots: {
     index: true,
     follow: true,
@@ -51,6 +58,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+
   icons: {
     icon: [
       { url: "/icon.png", type: "image/png" },
@@ -59,11 +67,13 @@ export const metadata: Metadata = {
     shortcut: "/icon.png",
     apple: "/icon.png",
   },
+
   openGraph: {
-    title: "EAGLE SORA TRANSCENDENT | Empowering the Future of Digital Innovation",
+    title:
+      "EAGLE SORA TRANSCENDENT | Empowering the Future of Digital Innovation",
     description:
       "Innovating for a Smarter, Digital Nation. We build custom software, web & mobile applications, and enterprise SaaS platforms.",
-    url: "https://eagle-sora.com",
+    url: "https://eaglesora.in",
     siteName: "EAGLE SORA TRANSCENDENT",
     images: [
       {
@@ -76,9 +86,11 @@ export const metadata: Metadata = {
     locale: "en_IN",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "EAGLE SORA TRANSCENDENT | Empowering Digital Innovation",
+    title:
+      "EAGLE SORA TRANSCENDENT | Empowering Digital Innovation",
     description:
       "Innovating for a Smarter, Digital Nation. Custom software, AI integration & enterprise cloud solutions.",
     images: ["/assets/Eagle Sora_ Smarter Digital Future.webp"],
@@ -91,17 +103,26 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-scroll-behavior="smooth" className={`${fontSans.variable} scroll-smooth`} suppressHydrationWarning>
+    <html
+      lang="en"
+      data-scroll-behavior="smooth"
+      className={`${fontSans.variable} scroll-smooth`}
+      suppressHydrationWarning
+    >
       <head>
         <JsonLd />
       </head>
+
       <body
         suppressHydrationWarning
         className="font-sans bg-[var(--color-bg-base)] text-[var(--color-text-main)] antialiased min-h-screen flex flex-col selection:bg-emerald-500 selection:text-white"
       >
         <Navbar />
+
         <main className="flex-1">{children}</main>
+
         <Footer />
+
         <ThemeBar />
       </body>
     </html>
