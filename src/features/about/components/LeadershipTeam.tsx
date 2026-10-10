@@ -51,16 +51,9 @@ const marqueeMembers = [...teamMembers, ...teamMembers];
 
 const legalTeam = [
   {
-    name: "Aarav Kulkarni",
+    name: "Jeet Pawar",
     role: "Legal Counsel",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80",
-  },
-  {
-    name: "Nisha Mehta",
-    role: "Compliance Officer",
-    image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80",
+    image: "/assets/Jeet_Pawar.jpeg",
   },
 ];
 
@@ -162,11 +155,7 @@ export const LeadershipTeam: React.FC = () => {
                 <motion.img
                   src={member.image}
                   alt={member.name}
-                  initial={{ scale: 1.08 }}
-                  whileInView={{ scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.7, ease: "easeOut" }}
-                  className="absolute inset-0 h-full w-full object-cover grayscale contrast-125 brightness-[1.08] transition-transform duration-700 ease-out group-hover:scale-105"
+                  className="absolute inset-0 h-full w-full object-cover object-top grayscale contrast-125 brightness-[1.08]"
                 />
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent" />

@@ -34,7 +34,7 @@ export const siteContent: SiteContent = {
     aboutParagraph: "EAGLE SORA TRANSCENDENT PRIVATE LIMITED is a forward-looking IT and software engineering company committed to delivering enterprise-grade technology solutions. We partner with startups, growing SMEs, and large organizations to engineer scalable software, cloud infrastructure, AI integrations, and compliant digital architectures.",
     location: "Yavatmal, Maharashtra, India",
     address: "Dhole Lay Out, Waghapur, Visawa colony, Pimpalgaon, Yavatmal, Maharashtra 445001",
-    email: "Ajaygorle886@gmail.com",
+    email: "services.eaglesora@gmail.com",
     phone: "+91 9307807516",
     website: "eagle-sora.com",
     copyright: "© 2026 EAGLE SORA TRANSCENDENT PRIVATE LIMITED. All rights reserved."

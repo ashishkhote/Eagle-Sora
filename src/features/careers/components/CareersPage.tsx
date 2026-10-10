@@ -361,7 +361,7 @@ export const CareersPage: React.FC = () => {
               Send Your Application <ArrowRight className="w-4 h-4" />
             </Link>
             <a
-              href={`mailto:Ajaygorle886@gmail.com?subject=General Application - Eagle Sora`}
+              href={`mailto:services.eaglesora@gmail.com?subject=General Application - Eagle Sora`}
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white/10 hover:bg-white/20 text-white font-bold text-sm border border-white/20 transition-all"
             >
               Email Us Directly

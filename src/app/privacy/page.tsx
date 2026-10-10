@@ -151,7 +151,7 @@ export default function PrivacyPolicyPage() {
       {/* 3. Main Body Container with Interactive Sidebar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
-          
+
           {/* Left Column: Sticky Table of Contents */}
           <aside className="lg:col-span-4 hidden lg:block">
             <div className="sticky top-28 p-6 rounded-3xl bg-white border border-emerald-100 shadow-xl shadow-emerald-950/5 space-y-6">
@@ -174,17 +174,15 @@ export default function PrivacyPolicyPage() {
                   <button
                     key={sec.id}
                     onClick={() => scrollTo(sec.id)}
-                    className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center justify-between ${
-                      activeSection === sec.id
+                    className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center justify-between ${activeSection === sec.id
                         ? "bg-[#196d24] text-white shadow-md shadow-emerald-900/20"
                         : "text-slate-600 hover:text-[#0f2917] hover:bg-emerald-50/70"
-                    }`}
+                      }`}
                   >
                     <span className="truncate">{sec.title}</span>
                     <ChevronRight
-                      className={`w-3.5 h-3.5 shrink-0 transition-transform ${
-                        activeSection === sec.id ? "rotate-90 text-emerald-200" : "text-slate-400"
-                      }`}
+                      className={`w-3.5 h-3.5 shrink-0 transition-transform ${activeSection === sec.id ? "rotate-90 text-emerald-200" : "text-slate-400"
+                        }`}
                     />
                   </button>
                 ))}
@@ -212,7 +210,7 @@ export default function PrivacyPolicyPage() {
 
           {/* Right Column: Detailed Policy Clauses */}
           <main className="lg:col-span-8 space-y-12 bg-white border border-emerald-100/90 rounded-3xl p-6 sm:p-10 shadow-sm leading-relaxed text-slate-700">
-            
+
             {/* Meta Banner */}
             <div className="p-4 rounded-2xl bg-emerald-50/80 border border-emerald-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
               <div className="space-y-0.5">
@@ -469,7 +467,7 @@ export default function PrivacyPolicyPage() {
                 <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
                   <strong className="text-slate-900 block">Right to Withdraw Consent (Section 6)</strong>
                   <p className="text-slate-600">
-                    Withdraw previously granted consent at any time via an email to <code>Ajaygorle886@gmail.com</code> with immediate effect on future processing.
+                    Withdraw previously granted consent at any time via an email to <code>services.eaglesora@gmail.com</code> with immediate effect on future processing.
                   </p>
                 </div>
               </div>

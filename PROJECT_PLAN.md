@@ -69,7 +69,7 @@ Single source of truth containing:
 - **Revenue & Engagement Models:** Project-based, SaaS products (SoraAI™, SoraCommerce™), Support contracts.
 - **Strategic Growth Roadmap:** 4-Phase expansion plan.
 - **Leadership Team:** Profiles & vision statements for Directors (Sanjay Gorle & Ajay Sanjayrao Gorle).
-- **Contact & Location Info:** Phone (+91 9307807516), Email (Ajaygorle886@gmail.com), Address (Maharashtra, India).
+- **Contact & Location Info:** Phone (+91 9307807516), Email (services.eaglesora@gmail.com), Address (Maharashtra, India).
 
 ---
 
