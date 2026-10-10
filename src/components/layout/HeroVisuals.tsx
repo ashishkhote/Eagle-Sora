@@ -43,6 +43,7 @@ export const ServicesHeroVisual: React.FC = () => {
           src="/assets/eco-tech-dashboard.webp"
           alt="Eagle Sora Engineering Services & Tech Architecture"
           fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
           priority
           quality={100}
           className="object-contain hover:scale-[1.02] transition-transform duration-500"
@@ -91,6 +92,7 @@ export const SolutionsHeroVisual: React.FC = () => {
           src="/assets/solutions-page.webp"
           alt="Eagle Sora Enterprise Solutions & SaaS Platforms Ecosystem"
           fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
           priority
           quality={100}
           className="object-contain hover:scale-[1.02] transition-transform duration-500"
@@ -186,6 +188,7 @@ export const AboutHeroVisual: React.FC = () => {
           src="/assets/about-team-cutout.webp"
           alt="Eagle Sora Leadership & Engineering Team"
           fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
           priority
           quality={100}
           className="object-contain drop-shadow-[0_25px_45px_rgba(25,109,36,0.22)] hover:scale-105 transition-transform duration-500"
@@ -215,6 +218,7 @@ export const CareersHeroVisual: React.FC = () => {
           src="/assets/careers-page.webp"
           alt="Eagle Sora Careers & Talent Acquisition Team"
           fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
           priority
           quality={100}
           className="object-contain hover:scale-[1.02] transition-transform duration-500"
@@ -263,6 +267,7 @@ export const ContactHeroVisual: React.FC = () => {
           src="/assets/contact-page.webp"
           alt="Eagle Sora Direct Strategic Inquiries & Client Consultation"
           fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
           priority
           quality={100}
           className="object-contain hover:scale-[1.02] transition-transform duration-500"

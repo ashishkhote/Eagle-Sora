@@ -57,6 +57,7 @@ export const PageHeroHeader: React.FC<PageHeroHeaderProps> = ({
           src={bgGraphic}
           alt="Page Hero Background Artwork"
           fill
+          sizes="100vw"
           quality={100}
           className="object-cover object-bottom contrast-[1.1] brightness-[1.02]"
           priority
@@ -73,6 +74,7 @@ export const PageHeroHeader: React.FC<PageHeroHeaderProps> = ({
           src="/assets/green-leaf-floating.webp"
           alt="Floating Leaf Left"
           fill
+          sizes="48px"
           className="object-contain mix-blend-multiply rotate-[22deg]"
         />
       </div>
@@ -81,13 +83,14 @@ export const PageHeroHeader: React.FC<PageHeroHeaderProps> = ({
           src="/assets/green-leaf-floating.webp"
           alt="Floating Leaf Right"
           fill
+          sizes="56px"
           className="object-contain mix-blend-multiply scale-x-[-1] -rotate-[25deg]"
         />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
-          
+
           {/* Left Column: Title & Information */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}

@@ -19,7 +19,6 @@ import {
   ChevronDown,
   ChevronUp,
   Star,
-  CheckCircle2,
   Sparkles,
   Coffee,
   Target,
@@ -27,6 +26,7 @@ import {
   Award,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { HiringProcessSection } from "./HiringProcessSection";
 
 /* ─── Job Openings Data ─── */
 const openRoles = [
@@ -332,52 +332,7 @@ export const CareersPage: React.FC = () => {
         </div>
       </section>
 
-      {/* ── SECTION 4: Hiring Process ── */}
-      <section className="py-20 sm:py-24 bg-[#f4f9f4] border-b border-emerald-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-14">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-100 text-[#196d24] text-xs font-black uppercase tracking-wider mb-4">
-              <CheckCircle2 className="w-3.5 h-3.5" /> OUR PROCESS
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-black text-[#0f2917] leading-tight mb-4">
-              Simple, Transparent{" "}
-              <span className="text-[#196d24]">Hiring Process</span>
-            </h2>
-            <p className="text-base text-slate-600 font-medium">
-              No endless loops or mystery boxes. We move fast and respect your time.
-            </p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 relative">
-              {/* Connector line on desktop */}
-              <div className="hidden lg:block absolute top-8 left-[12.5%] right-[12.5%] h-0.5 bg-emerald-200 z-0" />
-
-              {[
-                { step: "01", title: "Apply Online", desc: "Submit your resume via our contact form or email us directly. No cover letter required." },
-                { step: "02", title: "Screening Call", desc: "A 20-min intro call with our HR or a senior engineer to understand your background." },
-                { step: "03", title: "Technical Round", desc: "A practical, role-relevant assessment — not trick questions or leetcode marathons." },
-                { step: "04", title: "Director Interaction", desc: "Final conversation with our Directors. Offer rolled out within 48 hours if selected." },
-              ].map((s, i) => (
-                <motion.div
-                  key={s.step}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className="relative z-10 p-6 rounded-2xl bg-white border border-emerald-100 shadow-sm text-center"
-                >
-                  <div className="w-12 h-12 rounded-full bg-[#196d24] text-white flex items-center justify-center mx-auto mb-4 text-sm font-black shadow-md">
-                    {s.step}
-                  </div>
-                  <h3 className="text-sm font-black text-[#0f2917] mb-2">{s.title}</h3>
-                  <p className="text-xs text-slate-500 font-medium leading-relaxed">{s.desc}</p>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <HiringProcessSection />
 
       {/* ── SECTION 5: CTA — General Application ── */}
       <section className="py-20 sm:py-28 bg-[#0f2917] relative overflow-hidden">

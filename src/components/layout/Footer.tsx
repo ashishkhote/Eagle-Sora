@@ -30,6 +30,7 @@ export const Footer: React.FC = () => {
                 src="/assets/logo.webp"
                 alt={siteContent.company.legalName}
                 fill
+                sizes="176px"
                 className="object-contain object-left brightness-0 invert"
               />
             </div>
